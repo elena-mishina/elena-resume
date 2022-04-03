@@ -5,13 +5,16 @@ body {
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;
+    color: #645858;
+
+    background-color: #FFF0F0;
 }
 
 .name {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #696969;
+    color: #00918F;
 }
 
 h2 {
@@ -19,5 +22,5 @@ h2 {
     line-height: 28px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #1E90FF;
+    color: #C15A7E;
 }
