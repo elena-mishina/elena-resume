@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #696969;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1E90FF;
+}
