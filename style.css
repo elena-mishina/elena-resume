@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-    font-family: 'Noto Serif', serif;
-    font-size: 16px;
-    line-height: 22px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
     font-weight: 400;
     color: #645858;
 
@@ -12,14 +12,15 @@ body {
 
 .name {
     font-size: 24px;
+    line-height: 28px;
     font-weight: 700;
     text-transform: uppercase;
     color: #00918F;
 }
 
 h2 {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 26px;
     font-weight: 700;
     text-transform: uppercase;
     color: #C15A7E;
