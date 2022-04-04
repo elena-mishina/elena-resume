@@ -25,10 +25,44 @@ body {
     padding: 0 25px;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+    /* margin-bottom: 25px; */
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #A66378;
+}
+
+.navbar li {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.navbar li:hover {
+    background-color: #645858;
+    opacity: 0.8;
+    color: rgba(255, 240, 240, 1);
+}
+
+.navbar a {
+    color: #FFF0F0;
+    text-decoration: none;
+}
+
 .personal-info {
     display: flex;
     justify-content: space-between;
 
+    margin-top: 50px;
     padding: 20px 0;
 }
 
@@ -148,33 +182,6 @@ a:focus, .btn:focus {
 
 ul {
     list-style: none;
-}
-
-.navbar {
-    margin-bottom: 25px;
-}
-
-.navbar ul {
-    display: flex;
-    flex-wrap: wrap;
-
-    background-color: #A66378;
-}
-
-.navbar li {
-    padding: 10px;
-    margin-right: 15px;
-}
-
-.navbar li:hover {
-    background-color: #645858;
-    opacity: 0.8;
-    color: rgba(255, 240, 240, 1);
-}
-
-.navbar a {
-    color: #FFF0F0;
-    text-decoration: none;
 }
 
 .contact-form {
