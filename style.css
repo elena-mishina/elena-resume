@@ -66,19 +66,19 @@ section {
     background-image: linear-gradient(45deg, #F6CDCE, #A66378);
 }
 
-a {
+.socials a {
     color: #007676;
 }
 
-a:hover, a:focus {
+.socials a:hover, .socials a:focus {
     opacity: 0.8;
 }
 
-a:active {
+.socials a:active {
     color: #A66378;
 }
 
-/* a:visited {
+/* .socials a:visited {
     color: #655959;
 } */
 
@@ -105,4 +105,55 @@ a:active {
 
 a:focus, .btn:focus {
     outline-color: #655959;
+}
+
+table {
+    width: 600px;
+
+    border: 1px solid #645858;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border-bottom: 1px solid #645858;
+}
+
+table th {
+    background-color: #C6B8B8;
+}
+
+table td {
+    background-color: #FFE4E4;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    margin-bottom: 25px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #A66378;
+}
+
+.navbar li {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.navbar li:hover {
+    background-color: #645858;
+    opacity: 0.8;
+    color: rgba(255, 240, 240, 1);
+}
+
+.navbar a {
+    color: #FFF0F0;
+    text-decoration: none;
 }
