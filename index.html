@@ -12,26 +12,28 @@
     <body>
         <div class="container">
             <header>
-                <img src="img/elena_mishina.jpg" alt="Мой аватар" width="150" class="avatar">
-                <h1 class="name">Елена Мишина</h1>
+                <div class="personal-info">
+                    <div class="avatar-and-name">
+                        <img src="img/elena_mishina.jpg" alt="Мой аватар" width="150" class="avatar">
+                        <h1 class="name">Елена Мишина</h1>
+                    </div>
+                    
+                    <div class="info">
+                        <p>Я <strong>копирайтер</strong> и <strong>асессор</strong>, а также начинающий верстальщик и веб-разработчик</p>
+                        <p>Я люблю <em>слушать музыку, рисовать и играть в компьютерные игры</em></p>
+                    </div>
+                </div>
                 <nav class="navbar">
                     <ul>
-                        <li><a href="#info">Обо мне</a></li>
                         <li><a href="#hobbies">Мои хобби</a></li>
                         <li><a href="#work">Опыт работы</a></li>
-                        <li><a href="#form">Обратная связь</a></li>
+                        <li><a href="#contact-form">Обратная связь</a></li>
                         <li><a href="#socials">Соцсети и мессенджеры</a></li>
                     </ul>
                 </nav>
             </header>
 
             <main>
-                <section class="info" id="info">
-                    <h2>Обо мне</h2>
-                    <p>Я <strong>копирайтер</strong> и <strong>асессор</strong>, а также начинающий верстальщик и веб-разработчик</p>
-                    <p>Я люблю <em>слушать музыку и играть в компьютерные игры</em></p>
-                </section>
-        
                 <section class="hobbies" id="hobbies">
                     <h2>Мои хобби</h2>
                     <!-- ul>li{Element $}*5 -->
@@ -45,10 +47,10 @@
                 
                 <section class="work" id="work">
                     <h2>Опыт работы</h2>
-                    <table>
+                    <table class="table">
                         <thead>
                             <tr>
-                                <th>Название</th>
+                                <th>Место работы</th>
                                 <th>Должность</th>
                                 <th>Годы</th>
                             </tr>
@@ -73,22 +75,23 @@
                     </table>
                 </section>
         
-                <section section="form" id="form">
+                <section class="contact-form" id="contact-form">
                     <h2>Связаться со мной</h2>
-                    <form>
-                        <div>
-                            <label for="name">Имя</label>
-                            <input type="text" id="name" placeholder="Введите ваше имя">
+                    <form class="form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Имя</label>
+                                <input type="text" id="name" placeholder="Введите ваше имя">
+                            </div>
+                
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" placeholder="Введите ваш e-mail">
+                            </div>
                         </div>
             
-                        <div>
-                            <label for="email">E-mail</label>
-                            <input type="email" id="email" placeholder="Введите ваш e-mail">
-                        </div>
-            
-                        <div>
+                        <div class="form-group">
                             <label for="message">Сообщение</label>
-                            <br>
                             <textarea id="message" cols="25" rows="5" placeholder="Введите ваше сообщение"></textarea>
                         </div>
                         

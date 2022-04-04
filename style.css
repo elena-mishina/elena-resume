@@ -25,8 +25,20 @@ body {
     padding: 0 25px;
 }
 
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 0;
+}
+
+.avatar-and-name {
+    width: 35%;
+}
+
 .avatar {
-    margin: 25px;
+    margin-bottom: 20px;
+
     border-radius: 20%;
     box-shadow: 5px 5px 10px 5px rgba(0, 145, 143, 0.5);
 }
@@ -55,14 +67,21 @@ section {
 }
 
 .info {
+    width: 65%;
+
+    padding: 20px;
+
     border: 2px solid #00918F;
     border-radius: 25px 0 25px 0;
     background-image: linear-gradient(45deg, #F6CDCE, #00C9C5);
 }
 
-.hobbies, .work {
+.hobbies, .work, .contact-form {
     border: 2px solid #C15A7E;
     border-radius: 25px 0 25px 0;
+}
+
+.hobbies, .work {
     background-image: linear-gradient(45deg, #F6CDCE, #A66378);
 }
 
@@ -107,23 +126,23 @@ a:focus, .btn:focus {
     outline-color: #655959;
 }
 
-table {
+.table {
     width: 600px;
 
     border: 1px solid #645858;
     border-collapse: collapse;
 }
 
-table th, table td {
+.table th, .table td {
     padding: 10px;
     border-bottom: 1px solid #645858;
 }
 
-table th {
+.table th {
     background-color: #C6B8B8;
 }
 
-table td {
+.table td {
     background-color: #FFE4E4;
 }
 
@@ -156,4 +175,61 @@ ul {
 .navbar a {
     color: #FFF0F0;
     text-decoration: none;
+}
+
+.contact-form {
+    width: 600px;
+
+    margin: 0 auto;
+
+    background-image: linear-gradient(to bottom right, #F6CDCE, #A66378);
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form-row .form-group {
+    width: 50%;
+
+    margin-right: 20px;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label  {
+    display: block;
+
+    padding: 10px 0;
+
+    font-weight: 700;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+
+    border: none;
+    border-bottom: 1px solid #372C2C;
+    background: transparent;
+    color: #372C2C;
+
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 24px;
+
+    outline-color: #655959;
+}
+
+.form-group textarea {
+    resize: none;
+
+    border: 1px solid #372C2C;
 }
