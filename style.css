@@ -52,10 +52,13 @@ a:focus, .btn:focus {
     display: inline-block;
 
     padding: 10px;
-    margin-right: 15px;
 
     color: #FFF0F0;
     text-decoration: none;
+}
+
+.navbar a:not(:last-child) {
+    margin-right: 15px;
 }
 
 .navbar a:hover, .navbar a:focus {
@@ -342,6 +345,22 @@ h2 {
     }
 
     .navbar a {
+        padding: 15px 5px;
+
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .navbar a:not(:last-child) {
         margin-right: 5px;
+    }
+
+    .info {
+        width: 290px;
+    }
+
+    .table th, .table td {
+        font-size: 14px;
+        line-height: 18px;
     }
 }
