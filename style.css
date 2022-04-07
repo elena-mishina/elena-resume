@@ -243,30 +243,30 @@ h2 {
     color: rgba(255, 240, 240, 1);
 }
 
-.socials {
+.social-icons {
     margin-bottom: 0;
 }
 
-.socials a {
+.social-icons a {
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
     color: #007676;
 }
 
-.socials a:not(:last-child) {
+.social-icons a:not(:last-child) {
     margin-right: 25px;
 }
 
-.socials a:hover, .socials a:focus {
+.social-icons a:hover, .socials a:focus {
     opacity: 0.7;
 }
 
-.socials a:active {
+.social-icons a:active {
     color: #A66378;
 }
 
-/* .socials a:visited {
+/* .social-icons a:visited {
     color: #655959;
 } */
 
